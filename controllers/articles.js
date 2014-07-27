@@ -1,4 +1,4 @@
-pp/*
+/*
  * All corresponding CRUD methods for interaction with Article model
  * */
 var ArticleModule = require('../models/article');

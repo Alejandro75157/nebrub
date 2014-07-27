@@ -2,6 +2,8 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+    link(rel='stylesheet', href='/stylesheets/style.less')
+    script(data-main='/main', src='/libs/require.js')
+
+    body
+      block content

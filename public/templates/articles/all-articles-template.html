@@ -1,0 +1,15 @@
+<p> All articles </p>
+
+<% articles.forEach(function(article, index){  %>
+    <div class="article">
+        <div class="title">
+            <a class="show" href="#" data-id="<%= article.id %>"><%= article.title %></a>
+        </div>
+        <div class="description">
+            <%= article.body %>
+        </div>
+        <div class="modified">
+            <%= article.created_at %>
+        </div>
+    </div>
+<% }) %>
